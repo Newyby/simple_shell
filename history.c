@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * history - write file with user inputs
  * @input: user input

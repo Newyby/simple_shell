@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * help_all - Displays all possible builtin shellby commands
  */

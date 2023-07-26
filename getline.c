@@ -1,13 +1,9 @@
-#include "prompt.h"
+#include "shell.h"
 /**
 * _getline - read input from standard input by user
 * Return: the input on a buffer
 */
 
-char *_getline()
-char *enter(char *string)
-char *space(char *str)
-char *space(char *str)
 
 char *_getline()
 {
@@ -105,5 +101,5 @@ void hashtag_handler(char *buff)
 		{
 			buff[i] = '\0';
 		}
-	}char *space(char *str)
+        }
 }

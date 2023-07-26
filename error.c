@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * print_error - Displays error message
  * @input: Input recieved from user

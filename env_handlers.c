@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * create_envi - Creates an array of Enviroment Variables
  * @envi: Array to store Enviroment Variables

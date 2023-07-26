@@ -1,13 +1,10 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * check_builtin - Checks if parsed command in built-in
  * @cmd: Parsed command to be check
  * Return: 0 Succes -1 Fail
  */
 
-int check_builtin(char **cmd)
-int handle_builtin(char **cmd, int st)
-void exit_bul(char **cmd, char *input, char **argv, int c, int stat)
 
 int check_builtin(char **cmd)
 {

@@ -1,5 +1,5 @@
-#ifndef _PROMPT_H_
-#define _PROMPT_H_
+#ifndef _SHELL_H_
+#define _SHELL_H_
 
 /**###### environ var ######*/
 
@@ -139,4 +139,4 @@ typedef struct _builtin
 	int (*function)(char **line, int st);
 } builtin;
 
-#endif
+#endif /* _SHELL_H_ */

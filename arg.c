@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * read_file - Reads commands from the argument File
  * @file: File containing commands

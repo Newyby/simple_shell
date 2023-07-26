@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * _putchar - function that writes the character to stdout
  * @c: The character to print

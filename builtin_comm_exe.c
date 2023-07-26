@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 /**
  * change_dir - Changes directory
  * @cmd: Parsed command

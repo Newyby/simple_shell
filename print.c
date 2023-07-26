@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 
 /**
  * print_number - Prints unsigned integers using _putchar function

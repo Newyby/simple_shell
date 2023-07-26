@@ -1,4 +1,4 @@
-#include "prompt.h"
+#include "shell.h"
 
 /**
  * separator - Separates command recieved from stdin by ;
