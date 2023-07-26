@@ -1,10 +1,14 @@
-#ifndef PROMPT_H
-#define PROMPT_H
+#ifndef _PROMPT_H_
+#define _PROMPT_H_
+
+/**###### environ var ######*/
+
+extern char **environ;
 
 /***** MACROS *****/
 
 #define PRINT(c) (write(STDERR_FILENO, c, _strlen(c)))
-#define BUFSIZE 10240
+#define BUFSIZE 1024
 #define DELIMITER " \t\r\n\a"
 
 /*** STANDARD LIBRARIES ***/
@@ -135,4 +139,4 @@ typedef struct _builtin
 	int (*function)(char **line, int st);
 } builtin;
 
-#endif /*PROMPT_H*/
+#endif
